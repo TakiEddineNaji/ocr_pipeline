@@ -1,0 +1,8 @@
+Python 3.11.9
+pip 25.3
+pip opencv-python
+pip pdf2image
+pip paddlepaddle
+pip paddleocr
+pip unidecode
+poppler

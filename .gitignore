@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.env
+ocrproject/
+
+# Outputs
+step1_output/
+step2_output/
+step3_output/
+
+# PDFs / personal data
+*.pdf
