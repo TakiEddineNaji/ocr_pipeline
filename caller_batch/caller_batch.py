@@ -49,19 +49,27 @@ for pdf_path in CV_INPUT_DIR.glob("*.pdf"):
     # -------------------------------
     # Step 1: PDF → PNG
     # -------------------------------
-    preprocess_pdf(
-        str(pdf_path),
-        str(step1_out),
-        poppler_path=POPPLER_PATH
-    )
+    try:
+        preprocess_pdf(
+            str(pdf_path),
+            str(step1_out),
+            poppler_path=POPPLER_PATH
+        )
+    except Exception as e:
+        print(f"[ERROR] Step 1 failed for {cv_name}: {e}")
+        continue
 
     # -------------------------------
     # Step 2: OCR
     # -------------------------------
-    run_ocr(
-        str(step1_out),
-        str(step2_out)
-    )
+    try:
+        run_ocr(
+            str(step1_out),
+            str(step2_out)
+        )
+    except Exception as e:
+        print(f"[ERROR] Step 2 failed for {cv_name}: {e}")
+        continue
 
     # -------------------------------
     # Step 3: Light Clean
@@ -69,9 +77,17 @@ for pdf_path in CV_INPUT_DIR.glob("*.pdf"):
     raw_json = step2_out / "cv_ocr_raw.json"
     clean_json = step3_out / "cv_ocr_cleaned.json"
 
-    clean_ocr_json(
-        str(raw_json),
-        str(clean_json)
-    )
+    if not raw_json.exists():
+        print(f"[SKIP] No OCR output for {cv_name}")
+        continue
+
+    try:
+        clean_ocr_json(
+            str(raw_json),
+            str(clean_json)
+        )
+    except Exception as e:
+        print(f"[ERROR] Step 3 failed for {cv_name}: {e}")
+        continue
 
     print(f"[DONE] {cv_name}")
