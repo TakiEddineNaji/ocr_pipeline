@@ -1,0 +1,442 @@
+[
+  {
+    "image": "processed_1.png",
+    "lines": [
+      {
+        "text": "JEAN DUPONT",
+        "confidence": 0.9922581315040588,
+        "bbox": null
+      },
+      {
+        "text": "Alste de donnds oente résultats ave as dexpeence dars lextacton de connarssances",
+        "confidence": 0.6848435401916504,
+        "bbox": null
+      },
+      {
+        "text": "toabes à padeemies de dones complexs Je posse n espt araltique tolde e",
+        "confidence": 0.6351363062858582,
+        "bbox": null
+      },
+      {
+        "text": "Capaci de peer de ma ecomp s plemss enmpoa gals.",
+        "confidence": 0.5835457444190979,
+        "bbox": null
+      },
+      {
+        "text": "de montre d'ecelentes compétences en com mucatn verbale et  e transmecant eicacement des",
+        "confidence": 0.6551215052604675,
+        "bbox": null
+      },
+      {
+        "text": "conceps techriques à des parties prenantes techniques et non techriques Ja tat mes preuves dans la",
+        "confidence": 0.7168958783149719,
+        "bbox": null
+      },
+      {
+        "text": "foum de solutons basées su les données qu smulent la crossance de lenreprise et am ln",
+        "confidence": 0.6781774163246155,
+        "bbox": null
+      },
+      {
+        "text": "NFORMATIONS",
+        "confidence": 0.9997768402099609,
+        "bbox": null
+      },
+      {
+        "text": "leffixcacité cperaionne lle.",
+        "confidence": 0.7823709845542908,
+        "bbox": null
+      },
+      {
+        "text": "PERSONNELLES",
+        "confidence": 0.9774227738380432,
+        "bbox": null
+      },
+      {
+        "text": "Nom",
+        "confidence": 0.6458742618560791,
+        "bbox": null
+      },
+      {
+        "text": "Jean Dupent",
+        "confidence": 0.8753221035003662,
+        "bbox": null
+      },
+      {
+        "text": "EXPÉRIENCE PROFESSIONNELLE",
+        "confidence": 0.992694616317749,
+        "bbox": null
+      },
+      {
+        "text": "Numéro de teléphone",
+        "confidence": 0.8788087964057922,
+        "bbox": null
+      },
+      {
+        "text": "•3364585965",
+        "confidence": 0.8065462708473206,
+        "bbox": null
+      },
+      {
+        "text": "0",
+        "confidence": 0.7060701251029968,
+        "bbox": null
+      },
+      {
+        "text": "2018 - Encours",
+        "confidence": 0.8922401666641235,
+        "bbox": null
+      },
+      {
+        "text": "Analyste de Données Senior",
+        "confidence": 0.9959329962730408,
+        "bbox": null
+      },
+      {
+        "text": "Email",
+        "confidence": 0.7817707061767578,
+        "bbox": null
+      },
+      {
+        "text": "DataTech France, Paris",
+        "confidence": 0.9173181653022766,
+        "bbox": null
+      },
+      {
+        "text": "coemplevemat.f",
+        "confidence": 0.524782121181488,
+        "bbox": null
+      },
+      {
+        "text": "J'as condurt des analyses de do nmées appecfo ndes pour adentiller les",
+        "confidence": 0.8774386644363403,
+        "bbox": null
+      },
+      {
+        "text": "tendances, les modéles et les comelations pour la prise de déci saon",
+        "confidence": 0.9364780187606812,
+        "bbox": null
+      },
+      {
+        "text": "Permis de conduire",
+        "confidence": 0.9605553150177002,
+        "bbox": null
+      },
+      {
+        "text": "stratéique J'a developpe et maintenu des requltes SQL compienes pour",
+        "confidence": 0.8027957677841187,
+        "bbox": null
+      },
+      {
+        "text": "9",
+        "confidence": 0.5586909055709839,
+        "bbox": null
+      },
+      {
+        "text": "extraine, transformer et charger des données provenant de sou rces",
+        "confidence": 0.8927904963493347,
+        "bbox": null
+      },
+      {
+        "text": "0",
+        "confidence": 0.14364704489707947,
+        "bbox": null
+      },
+      {
+        "text": "Eat civeil",
+        "confidence": 0.7264631986618042,
+        "bbox": null
+      },
+      {
+        "text": "multpies dans des bases de donnbes centralisées. Jai utilise Python et ",
+        "confidence": 0.8230950832366943,
+        "bbox": null
+      },
+      {
+        "text": "Manee)",
+        "confidence": 0.8119577765464783,
+        "bbox": null
+      },
+      {
+        "text": "pour le neftioyage, la manipulasion et l'analyse statistique des données.",
+        "confidence": 0.8404422402381897,
+        "bbox": null
+      },
+      {
+        "text": "J'ai créé des ta bleaux de bord interactifs et des rapports à l'aid e de",
+        "confidence": 0.9199426174163818,
+        "bbox": null
+      },
+      {
+        "text": "COMPÉTENCES",
+        "confidence": 0.9554912447929382,
+        "bbox": null
+      },
+      {
+        "text": "Tableau, présentant des informations cles aux parties prenantes.",
+        "confidence": 0.9317343235015869,
+        "bbox": null
+      },
+      {
+        "text": "lmpke mentai on de modetes predk t fs pou: opti miser la gestion des",
+        "confidence": 0.8731194138526917,
+        "bbox": null
+      },
+      {
+        "text": "Analyse de données",
+        "confidence": 0.8983495235443115,
+        "bbox": null
+      },
+      {
+        "text": "stockt, entrainant une séduction de 154s des coûts de stockage",
+        "confidence": 0.9236770272254944,
+        "bbox": null
+      },
+      {
+        "text": "Visual sation de données",
+        "confidence": 0.9035751223564148,
+        "bbox": null
+      },
+      {
+        "text": ".",
+        "confidence": 0.4260651767253876,
+        "bbox": null
+      },
+      {
+        "text": "Dévelo ppeement et automatisation de rapports guctidiens,",
+        "confidence": 0.9227710962295532,
+        "bbox": null
+      },
+      {
+        "text": "Analyte satisti que",
+        "confidence": 0.720317006111145,
+        "bbox": null
+      },
+      {
+        "text": "hebdomadalires et mensuels, a méicra nt l'efficacité de 20t",
+        "confidence": 0.8793710470199585,
+        "bbox": null
+      },
+      {
+        "text": "Gestion de bases de donmées",
+        "confidence": 0.9229114651679993,
+        "bbox": null
+      },
+      {
+        "text": "2016·2018",
+        "confidence": 0.9193148016929626,
+        "bbox": null
+      },
+      {
+        "text": "Analyste de Données Junior",
+        "confidence": 0.9912233948707581,
+        "bbox": null
+      },
+      {
+        "text": "Programmation",
+        "confidence": 0.9381660223007202,
+        "bbox": null
+      },
+      {
+        "text": "InnovData, Lyon",
+        "confidence": 0.9457683563232422,
+        "bbox": null
+      },
+      {
+        "text": "Requétes de données",
+        "confidence": 0.8516214489936829,
+        "bbox": null
+      },
+      {
+        "text": "J'as assiste à la collecte, au nettoyage et à l'analyse des donnbes à l'ade",
+        "confidence": 0.9115649461746216,
+        "bbox": null
+      },
+      {
+        "text": "dExcel et de Sl Ja nalse des analyses statisticues pour idenfer les",
+        "confidence": 0.7776711583137512,
+        "bbox": null
+      },
+      {
+        "text": "COMPÉTENCES",
+        "confidence": 0.9980415105819702,
+        "bbox": null
+      },
+      {
+        "text": "tendances et les valieurs a berrantes dans les do nnbes de comportement",
+        "confidence": 0.9371746182441711,
+        "bbox": null
+      },
+      {
+        "text": "TECHNIQUES",
+        "confidence": 0.9943796396255493,
+        "bbox": null
+      },
+      {
+        "text": "des clents. rai colla bose avec des analystes serscrs pour développer des",
+        "confidence": 0.8623387813568115,
+        "bbox": null
+      },
+      {
+        "text": "an gges de programmation",
+        "confidence": 0.9397774338722229,
+        "bbox": null
+      },
+      {
+        "text": "modèles de prévi sion de la demande et d'opôi misation des stratég es de",
+        "confidence": 0.9077845811843872,
+        "bbox": null
+      },
+      {
+        "text": "QLPython (eumPy, Pandas,",
+        "confidence": 0.8673644065856934,
+        "bbox": null
+      },
+      {
+        "text": "tarification Jai créé des visualisations et des rapports pour communiquer",
+        "confidence": 0.8929380774497986,
+        "bbox": null
+      },
+      {
+        "text": " arn),R",
+        "confidence": 0.5374220609664917,
+        "bbox": null
+      },
+      {
+        "text": "des informations a ux parties prenanles.",
+        "confidence": 0.8470958471298218,
+        "bbox": null
+      },
+      {
+        "text": "fsualisation de données",
+        "confidence": 0.9320337772369385,
+        "bbox": null
+      },
+      {
+        "text": "Dévelo ppement et merje en cruvre d’un processurs d'assurance guallitée",
+        "confidence": 0.8565096259117126,
+        "bbox": null
+      },
+      {
+        "text": "ieu, Matplotib,Seaborn",
+        "confidence": 0.8015872836112976,
+        "bbox": null
+      },
+      {
+        "text": "des données qui a rédut les erneurs de donnies de 30% en tros mos",
+        "confidence": 0.8798444867134094,
+        "bbox": null
+      },
+      {
+        "text": "Direc ton d'un propet axé sur les donnires pour optimi ser les",
+        "confidence": 0.8777374029159546,
+        "bbox": null
+      },
+      {
+        "text": "nalyse statistique",
+        "confidence": 0.8458659648895264,
+        "bbox": null
+      },
+      {
+        "text": "campagnes markerting resultant en une augmentation de 1ste du laua",
+        "confidence": 0.7301205992698669,
+        "bbox": null
+      },
+      {
+        "text": "ests dhypotheses, Analyse de",
+        "confidence": 0.8962957262992859,
+        "bbox": null
+      },
+      {
+        "text": "égession, Antlye de seses",
+        "confidence": 0.686907172203064,
+        "bbox": null
+      },
+      {
+        "text": "de conve rs on cl ent",
+        "confidence": 0.9122763276100159,
+        "bbox": null
+      },
+      {
+        "text": "emporelles",
+        "confidence": 0.9130105972290039,
+        "bbox": null
+      },
+      {
+        "text": "estion de bases de données",
+        "confidence": 0.986576497554779,
+        "bbox": null
+      },
+      {
+        "text": "ySQL, PosgeSQL",
+        "confidence": 0.6066819429397583,
+        "bbox": null
+      },
+      {
+        "text": "FORMATION",
+        "confidence": 0.9997749328613281,
+        "bbox": null
+      },
+      {
+        "text": "Dutil",
+        "confidence": 0.4527808725833893,
+        "bbox": null
+      },
+      {
+        "text": "ace, Google Analytics, Jupyter",
+        "confidence": 0.7881447076797485,
+        "bbox": null
+      },
+      {
+        "text": "ctrbook, Gilt",
+        "confidence": 0.8130210041999817,
+        "bbox": null
+      },
+      {
+        "text": "0",
+        "confidence": 0.8353267908096313,
+        "bbox": null
+      },
+      {
+        "text": "2016",
+        "confidence": 0.9997799396514893,
+        "bbox": null
+      },
+      {
+        "text": "Master en Science des Données",
+        "confidence": 0.9758866429328918,
+        "bbox": null
+      },
+      {
+        "text": "Universite Paris-Saclay",
+        "confidence": 0.8827453255653381,
+        "bbox": null
+      },
+      {
+        "text": "LANGUES",
+        "confidence": 0.9984683990478516,
+        "bbox": null
+      },
+      {
+        "text": "ranças",
+        "confidence": 0.7222008109092712,
+        "bbox": null
+      },
+      {
+        "text": "*****",
+        "confidence": 0.9171284437179565,
+        "bbox": null
+      },
+      {
+        "text": "Anglais",
+        "confidence": 0.8252154588699341,
+        "bbox": null
+      },
+      {
+        "text": "****",
+        "confidence": 0.8599541783332825,
+        "bbox": null
+      }
+    ]
+  }
+]

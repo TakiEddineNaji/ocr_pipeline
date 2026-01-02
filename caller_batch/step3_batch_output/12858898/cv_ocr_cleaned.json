@@ -1,0 +1,352 @@
+[
+  {
+    "image": "processed_1.png",
+    "lines": [
+      {
+        "text": "FINANCE MANAGER",
+        "confidence": 0.9993064403533936,
+        "bbox": null
+      },
+      {
+        "text": "Summary",
+        "confidence": 0.9988354444503784,
+        "bbox": null
+      },
+      {
+        "text": "Highlights",
+        "confidence": 0.9996203184127808,
+        "bbox": null
+      },
+      {
+        "text": "Strategic planning",
+        "confidence": 0.9997378587722778,
+        "bbox": null
+      },
+      {
+        "text": "CPA (Inactive License)",
+        "confidence": 0.9872415065765381,
+        "bbox": null
+      },
+      {
+        "text": "Significant Budget/forecasting experience with a focus on process improvement",
+        "confidence": 0.983346700668335,
+        "bbox": null
+      },
+      {
+        "text": "Experienced Essbase User",
+        "confidence": 0.9998343586921692,
+        "bbox": null
+      },
+      {
+        "text": "Strong Excel Skills",
+        "confidence": 0.9981249570846558,
+        "bbox": null
+      },
+      {
+        "text": "Accomplishments",
+        "confidence": 0.9998452067375183,
+        "bbox": null
+      },
+      {
+        "text": "Developed product report and pricing framework driving decisions regarding minimum pricing and product margins",
+        "confidence": 0.9816732406616211,
+        "bbox": null
+      },
+      {
+        "text": "Partnered with Human Resources and Business Leaders to redesign sales plans to reduce sales cost and improving alignment with sales",
+        "confidence": 0.993531346321106,
+        "bbox": null
+      },
+      {
+        "text": "activity",
+        "confidence": 0.9091148376464844,
+        "bbox": null
+      },
+      {
+        "text": "Streamlined finance support with improved consistency and service levels while reducing staff",
+        "confidence": 0.998960018157959,
+        "bbox": null
+      },
+      {
+        "text": "Experience",
+        "confidence": 0.9998680353164673,
+        "bbox": null
+      },
+      {
+        "text": "Finance Manager 10/2007 to Current Company Name City , State",
+        "confidence": 0.9948015809059143,
+        "bbox": null
+      },
+      {
+        "text": "Manage forecasting, outlook, reporting and sales compensation process for Structured Product Services Group ofCorporate Trust. Asset",
+        "confidence": 0.9821534752845764,
+        "bbox": null
+      },
+      {
+        "text": "classes supported includes residential and commercial mortgage products as well as auto, student loans, life insurance and other asset",
+        "confidence": 0.9951736927032471,
+        "bbox": null
+      },
+      {
+        "text": "classes",
+        "confidence": 0.99992835521698,
+        "bbox": null
+      },
+      {
+        "text": "Identify and support process improvements to streamline reporting, simplify and improve forecast models and enhance metrics for",
+        "confidence": 0.9860249757766724,
+        "bbox": null
+      },
+      {
+        "text": "productivity to support strategic business decisions",
+        "confidence": 0.998492956161499,
+        "bbox": null
+      },
+      {
+        "text": "Develop pricing, cost and allcation models for existing products and new business opportunites providing financial data for strategic",
+        "confidence": 0.9635694622993469,
+        "bbox": null
+      },
+      {
+        "text": "growth initiatives and pricing modifications",
+        "confidence": 0.9883310794830322,
+        "bbox": null
+      },
+      {
+        "text": "Support business objectives related to expense reduction goals",
+        "confidence": 0.9966021180152893,
+        "bbox": null
+      },
+      {
+        "text": "Manage team of 6-7 Consultants including staff that is located remotely with significant focus on skilldevelopment",
+        "confidence": 0.990291953086853,
+        "bbox": null
+      },
+      {
+        "text": "Finance Manager/Director 12/2005 to 10/2007 Company Name City , State",
+        "confidence": 0.9952425956726074,
+        "bbox": null
+      },
+      {
+        "text": "Managed team responsible for the weekly 90 day cash forecasting process during time of significant market/liquidity stress. Responsibilities",
+        "confidence": 0.9838964343070984,
+        "bbox": null
+      },
+      {
+        "text": "included setting calendar, producing executive and summary reports with commentary, actual to forecast variance and model maintenance",
+        "confidence": 0.9956703186035156,
+        "bbox": null
+      },
+      {
+        "text": "Recommended adjustments to 90 day cash forecast along with risks and opportunities to cash needs",
+        "confidence": 0.9925839304924011,
+        "bbox": null
+      },
+      {
+        "text": "Completed ad hoc reporting requests for Treasury and Senior Management",
+        "confidence": 0.9997150897979736,
+        "bbox": null
+      },
+      {
+        "text": "Coordinated review of balance sheet forecast",
+        "confidence": 0.9930610060691833,
+        "bbox": null
+      },
+      {
+        "text": "Finance Manager/Senior Analyst 04/2003 to 12/2005 Company Name City , State",
+        "confidence": 0.9755008816719055,
+        "bbox": null
+      },
+      {
+        "text": "Conpleted monthly and quarterly forecasts and annual operating plan and reporting for the $45 bilion residential mortgage financing",
+        "confidence": 0.9930009841918945,
+        "bbox": null
+      },
+      {
+        "text": "portfolio",
+        "confidence": 0.9989157915115356,
+        "bbox": null
+      },
+      {
+        "text": "Coordinated pre-close and close process for portfolio",
+        "confidence": 0.9994828104972839,
+        "bbox": null
+      },
+      {
+        "text": "Developed portfolio and deal level yield analytics including net interest margin, provision expense and operating expense as well as",
+        "confidence": 0.9884837865829468,
+        "bbox": null
+      },
+      {
+        "text": "rate/volume attribution for forecast and actuals for residential mortgage portfolio",
+        "confidence": 0.9881922602653503,
+        "bbox": null
+      },
+      {
+        "text": "Created and/or enhanced management reporting package of forecast and actual business results",
+        "confidence": 0.9978417754173279,
+        "bbox": null
+      },
+      {
+        "text": "Communicated forecast and actual results to both Finance and Business Management",
+        "confidence": 0.9936822056770325,
+        "bbox": null
+      },
+      {
+        "text": "Led project to develop and implement a new Essbase forecast model for the residential securitization portfolio accounted for as a financing",
+        "confidence": 0.9907969832420349,
+        "bbox": null
+      },
+      {
+        "text": "accounting transaction",
+        "confidence": 0.9998815059661865,
+        "bbox": null
+      },
+      {
+        "text": "Implemented additional forecast process controls to improve accuracy and enhance coordination various groups",
+        "confidence": 0.9945712089538574,
+        "bbox": null
+      },
+      {
+        "text": "Financial Consultant 05/2002 to 04/2003 Company Name City , State",
+        "confidence": 0.9829369783401489,
+        "bbox": null
+      },
+      {
+        "text": "Trackdndcatinnd sondrdaspreadvooratneandp",
+        "confidence": 0.6572725772857666,
+        "bbox": null
+      },
+      {
+        "text": "Analyzed maturity risk, basis risk and repricing characteristics of debt portfolio",
+        "confidence": 0.9883844256401062,
+        "bbox": null
+      },
+      {
+        "text": "Analyzed consolidated liquidity and balance sheet trends for funding purposes",
+        "confidence": 0.9934729933738708,
+        "bbox": null
+      },
+      {
+        "text": "Finance Manager 04/2001 to 05/2002 Company Name City , State",
+        "confidence": 0.9856747984886169,
+        "bbox": null
+      },
+      {
+        "text": "Developedand implemented new internal expense allocation methodology",
+        "confidence": 0.9925088286399841,
+        "bbox": null
+      },
+      {
+        "text": "Managed Analysts that supported the Employee Benefts Support Group",
+        "confidence": 0.9796141386032104,
+        "bbox": null
+      },
+      {
+        "text": "Integrated t dail nance support Institutonal Tustaqutons",
+        "confidence": 0.7485325932502747,
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "image": "processed_2.png",
+    "lines": [
+      {
+        "text": "Senior/Lead Analyst 02/1998 to 04/2001 Company Name City , State",
+        "confidence": 0.9875632524490356,
+        "bbox": null
+      },
+      {
+        "text": "Directed aceietionElostas",
+        "confidence": 0.6922045946121216,
+        "bbox": null
+      },
+      {
+        "text": "Led department automation project for financial reporting and development of budget model",
+        "confidence": 0.9799971580505371,
+        "bbox": null
+      },
+      {
+        "text": "Implemented nw Tust Operations costalcationmethodolog and actual versus plan vole trackin",
+        "confidence": 0.7535927295684814,
+        "bbox": null
+      },
+      {
+        "text": "Led financial tracking for the merger of Norwest/Wells Fargo Trust Operations Groups",
+        "confidence": 0.977949857711792,
+        "bbox": null
+      },
+      {
+        "text": "Identified and implemented changes to allocation model for un- invested cash balances",
+        "confidence": 0.9957067370414734,
+        "bbox": null
+      },
+      {
+        "text": "Managed analysts that provided daily finance support",
+        "confidence": 0.977063775062561,
+        "bbox": null
+      },
+      {
+        "text": "Education",
+        "confidence": 0.9569764733314514,
+        "bbox": null
+      },
+      {
+        "text": "B.S. : Accounting B.S Bemidji State University Bemidji State University May 1992 Accounting B.S. GPA 3.9",
+        "confidence": 0.991469144821167,
+        "bbox": null
+      },
+      {
+        "text": "MBA: Finance & Strategic Management Carlson School of Management, University of Minnesota Carlson School of Management, University of",
+        "confidence": 0.9754384160041809,
+        "bbox": null
+      },
+      {
+        "text": "Minnesota July 2001 MBA - Finance & Strategic Management GPA 3.9",
+        "confidence": 0.9966694116592407,
+        "bbox": null
+      },
+      {
+        "text": "Certifications",
+        "confidence": 0.982049286365509,
+        "bbox": null
+      },
+      {
+        "text": "CPA RFC",
+        "confidence": 0.9977290034294128,
+        "bbox": null
+      },
+      {
+        "text": "Skills",
+        "confidence": 0.9554979205131531,
+        "bbox": null
+      },
+      {
+        "text": "Finance, Forecasting, Loans, Mortgage, Pricing, And Sales, Annuities, Compensation, Life Insurance, Metrics, Outbok, Process Improvements,",
+        "confidence": 0.9657764434814453,
+        "bbox": null
+      },
+      {
+        "text": "Sales, Sales Compensation, Cash, Budget, Cash Balances, Financial Reporting General Ledger, Integration, Integrator, Operations, Training",
+        "confidence": 0.9527398347854614,
+        "bbox": null
+      },
+      {
+        "text": "Trust Operations, Balance Sheet, Accounting, Business Management, Essbase, Forecasts, Process Controls, Residential Mortgage, Securitization,",
+        "confidence": 0.9863924980163574,
+        "bbox": null
+      },
+      {
+        "text": "Adjustments, Cash Forecasting, Maintenance, Benefits, Budgeting, Employee Benefits, Variance Analysis, Basis, Cpa, Excel, Process",
+        "confidence": 0.9923434257507324,
+        "bbox": null
+      },
+      {
+        "text": "Improvement, Strategic Planning, Mba",
+        "confidence": 0.9960575103759766,
+        "bbox": null
+      }
+    ]
+  }
+]

@@ -4,11 +4,11 @@ from pathlib import Path
 # =====================================================
 # CONFIG
 # =====================================================
-CV_INPUT_DIR = Path(r"C:\ocr-pipeline\cvs_input")
+CV_INPUT_DIR = Path(r"C:\ocr-pipeline\caller_batch\cvs_input")
 
-BASE_STEP1_OUT = Path(r"C:\ocr-pipeline\step1_preprocess\batch_output")
-BASE_STEP2_OUT = Path(r"C:\ocr-pipeline\step2_ocr\batch_output")
-BASE_STEP3_OUT = Path(r"C:\ocr-pipeline\step3_lightclean\batch_output")
+BASE_STEP1_OUT = Path(r"C:\ocr-pipeline\caller_batch\step1_batch_output")
+BASE_STEP2_OUT = Path(r"C:\ocr-pipeline\caller_batch\step2_batch_output")
+BASE_STEP3_OUT = Path(r"C:\ocr-pipeline\caller_batch\step3_batch_output")
 
 POPPLER_PATH = r"C:\poppler\Library\bin"
 
@@ -17,7 +17,7 @@ POPPLER_PATH = r"C:\poppler\Library\bin"
 # =====================================================
 step1_folder = r"C:\ocr-pipeline\step1_preprocess"
 sys.path.append(step1_folder)
-from step1_preprocess_pdf import main as preprocess_pdf
+from step1_preprocess_pdf import main as preprocess_file  # updated: handles PDF + images
 
 # =====================================================
 # STEP 2 IMPORT
@@ -36,8 +36,14 @@ from step3_light_clean import clean_ocr_json
 # =====================================================
 # BATCH PIPELINE
 # =====================================================
-for pdf_path in CV_INPUT_DIR.glob("*.pdf"):
-    cv_name = pdf_path.stem
+# Accept PDFs + PNG + JPG + JPEG
+VALID_EXTENSIONS = [".pdf", ".png", ".jpg", ".jpeg"]
+
+for file_path in CV_INPUT_DIR.glob("*"):
+    if file_path.suffix.lower() not in VALID_EXTENSIONS:
+        continue
+
+    cv_name = file_path.stem
     print(f"\n=== Processing CV: {cv_name} ===")
 
     # Per-CV folders
@@ -47,11 +53,16 @@ for pdf_path in CV_INPUT_DIR.glob("*.pdf"):
     step3_out.mkdir(parents=True, exist_ok=True)
 
     # -------------------------------
-    # Step 1: PDF → PNG
+    # Step 1: PDF / Image → PNG (preprocessing)
     # -------------------------------
     try:
+<<<<<<< HEAD
         preprocess_pdf(
             str(pdf_path),
+=======
+        preprocess_file(
+            str(file_path),
+>>>>>>> 0f5050a (Finalize CV preprocessing pipeline (steps 1-3))
             str(step1_out),
             poppler_path=POPPLER_PATH
         )

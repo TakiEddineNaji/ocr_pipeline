@@ -1,0 +1,447 @@
+[
+  {
+    "image": "processed_1.png",
+    "lines": [
+      {
+        "text": "CLASSROOM TEACHER",
+        "confidence": 0.9719939231872559,
+        "bbox": null
+      },
+      {
+        "text": "Professional Summary",
+        "confidence": 0.9993013143539429,
+        "bbox": null
+      },
+      {
+        "text": "experience.",
+        "confidence": 0.9998080730438232,
+        "bbox": null
+      },
+      {
+        "text": "Skills",
+        "confidence": 0.9998123049736023,
+        "bbox": null
+      },
+      {
+        "text": "Lesson planning",
+        "confidence": 0.9939618706703186,
+        "bbox": null
+      },
+      {
+        "text": "Microsoft office with modern classroom technology",
+        "confidence": 0.9906947612762451,
+        "bbox": null
+      },
+      {
+        "text": "Classroom management",
+        "confidence": 0.9973832964897156,
+        "bbox": null
+      },
+      {
+        "text": "Conflict Resolution Training",
+        "confidence": 0.9894658923149109,
+        "bbox": null
+      },
+      {
+        "text": "Grading procedures",
+        "confidence": 0.9945344924926758,
+        "bbox": null
+      },
+      {
+        "text": "IEP familiarity",
+        "confidence": 0.9498056769371033,
+        "bbox": null
+      },
+      {
+        "text": "Technology integration",
+        "confidence": 0.9998271465301514,
+        "bbox": null
+      },
+      {
+        "text": "Organization/Planning",
+        "confidence": 0.9994199872016907,
+        "bbox": null
+      },
+      {
+        "text": "Punctual",
+        "confidence": 0.9998629093170166,
+        "bbox": null
+      },
+      {
+        "text": "First Aid and BLS CPR Training",
+        "confidence": 0.9952973127365112,
+        "bbox": null
+      },
+      {
+        "text": "Inquiry-based learning",
+        "confidence": 0.9831181168556213,
+        "bbox": null
+      },
+      {
+        "text": "Positive learning environment",
+        "confidence": 0.988442599773407,
+        "bbox": null
+      },
+      {
+        "text": "Test proctoring",
+        "confidence": 0.9997750520706177,
+        "bbox": null
+      },
+      {
+        "text": "Student-centered learning",
+        "confidence": 0.9916868805885315,
+        "bbox": null
+      },
+      {
+        "text": "Work History",
+        "confidence": 0.9896814227104187,
+        "bbox": null
+      },
+      {
+        "text": "Classroom Teacher , 08/2014 to 06/2017",
+        "confidence": 0.9996983408927917,
+        "bbox": null
+      },
+      {
+        "text": "Company Name â€“ City , State",
+        "confidence": 0.9625039100646973,
+        "bbox": null
+      },
+      {
+        "text": "Performed all aspects of classroom managementÂ",
+        "confidence": 0.972019612789154,
+        "bbox": null
+      },
+      {
+        "text": "Instructed students and provided individual support as needed.",
+        "confidence": 0.9995556473731995,
+        "bbox": null
+      },
+      {
+        "text": "Documented attendance, assignments, grades and participation.",
+        "confidence": 0.9937348365783691,
+        "bbox": null
+      },
+      {
+        "text": "Planned lessons, activities and trips to cover all required course material.",
+        "confidence": 0.9952684640884399,
+        "bbox": null
+      },
+      {
+        "text": "Collaborated with parents, administrators and counselors to develop improvement plans for struggling students.",
+        "confidence": 0.9968966841697693,
+        "bbox": null
+      },
+      {
+        "text": "Developed activities and integrated technology to diversify instruction.",
+        "confidence": 0.9944786429405212,
+        "bbox": null
+      },
+      {
+        "text": "Met with parents to resolve conflicting educational priorities and issues.",
+        "confidence": 0.9897522926330566,
+        "bbox": null
+      },
+      {
+        "text": "Created new lesson plans based on course objectives.",
+        "confidence": 0.9996823072433472,
+        "bbox": null
+      },
+      {
+        "text": "Classroom Teacher , 08/1998 to 06/2014",
+        "confidence": 0.9931161999702454,
+        "bbox": null
+      },
+      {
+        "text": "Company Name â€“ City, State",
+        "confidence": 0.9737567901611328,
+        "bbox": null
+      },
+      {
+        "text": "Collaborated with parents, administrators and counselors to develop improvement plans for struggling students.",
+        "confidence": 0.9891757369041443,
+        "bbox": null
+      },
+      {
+        "text": "Administered quizzes and tests to assess student understanding of material.",
+        "confidence": 0.991107165813446,
+        "bbox": null
+      },
+      {
+        "text": "Documented attendance, assignments, grades and participation.",
+        "confidence": 0.9750210642814636,
+        "bbox": null
+      },
+      {
+        "text": "Fostered meaningful relationships among students through student field-trip retreats and team- work community service projects.",
+        "confidence": 0.9897704720497131,
+        "bbox": null
+      },
+      {
+        "text": "Served on School Affiliation Board and revised the institute's policies and rules.",
+        "confidence": 0.9855074286460876,
+        "bbox": null
+      },
+      {
+        "text": "Created new lesson plans based on course objectives.",
+        "confidence": 0.9936097860336304,
+        "bbox": null
+      },
+      {
+        "text": "Met with parents to resolve conflicting educational priorities and issues.",
+        "confidence": 0.9877803921699524,
+        "bbox": null
+      },
+      {
+        "text": "Classroom Assistant , 08/1989 to 06/1998",
+        "confidence": 0.9972196817398071,
+        "bbox": null
+      },
+      {
+        "text": "Company Name â€“ City, State",
+        "confidence": 0.9682784080505371,
+        "bbox": null
+      },
+      {
+        "text": "Maintained student safety in classroom and outside environments.",
+        "confidence": 0.9955071210861206,
+        "bbox": null
+      },
+      {
+        "text": "Documented behaviors, interventions and results.",
+        "confidence": 0.9869093298912048,
+        "bbox": null
+      },
+      {
+        "text": "Met with team of professionals from different disciplines to implement comprehensive action plan.",
+        "confidence": 0.9845994710922241,
+        "bbox": null
+      },
+      {
+        "text": "Worked with individual students to provide personalized educational, behavioral and emotional support.",
+        "confidence": 0.9953786134719849,
+        "bbox": null
+      },
+      {
+        "text": "Provided diverse assistance to teachers, including clerical support, classroom management and document coordination.",
+        "confidence": 0.9845697283744812,
+        "bbox": null
+      },
+      {
+        "text": "Prepared instructional materials for group and one-on-one use.",
+        "confidence": 0.9943799376487732,
+        "bbox": null
+      },
+      {
+        "text": "Developed and taught lessons on relevant children's books, poems, movies and themes to promote student interest.",
+        "confidence": 0.989159882068634,
+        "bbox": null
+      },
+      {
+        "text": "Interests",
+        "confidence": 0.9999192357063293,
+        "bbox": null
+      },
+      {
+        "text": "Education/Parenting Teacher Activities:Â",
+        "confidence": 0.9938957095146179,
+        "bbox": null
+      },
+      {
+        "text": "South Carolina Education Association 4-H Member/Teacher",
+        "confidence": 0.9904188513755798,
+        "bbox": null
+      },
+      {
+        "text": "Environmental Awareness Club Advisor",
+        "confidence": 0.9888122081756592,
+        "bbox": null
+      },
+      {
+        "text": "À Prom Coordinator Â and Junior Class SponsorÂ",
+        "confidence": 0.9770671725273132,
+        "bbox": null
+      },
+      {
+        "text": "Volunteer at Boys and Girls Club of Rock HillÂ",
+        "confidence": 0.9927008152008057,
+        "bbox": null
+      },
+      {
+        "text": "Detention Hall TeacherÂ",
+        "confidence": 0.9969325065612793,
+        "bbox": null
+      },
+      {
+        "text": "Progressive Planning CommitteeÂ",
+        "confidence": 0.9682884812355042,
+        "bbox": null
+      },
+      {
+        "text": "Emergency Action Team Member",
+        "confidence": 0.999603807926178,
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "image": "processed_2.png",
+    "lines": [
+      {
+        "text": "À First Responder Team Member",
+        "confidence": 0.9796112775802612,
+        "bbox": null
+      },
+      {
+        "text": "Education",
+        "confidence": 0.9998008012771606,
+        "bbox": null
+      },
+      {
+        "text": "Masters of Arts : Teaching Social Studies , May 2018",
+        "confidence": 0.9908155798912048,
+        "bbox": null
+      },
+      {
+        "text": "Winthrop University - City , State",
+        "confidence": 0.9744651913642883,
+        "bbox": null
+      },
+      {
+        "text": "Teaching Social Studies GPA: 3.8",
+        "confidence": 0.9988135099411011,
+        "bbox": null
+      },
+      {
+        "text": "Bachelor of Arts : Sociology , June 1998",
+        "confidence": 0.9937576055526733,
+        "bbox": null
+      },
+      {
+        "text": "Coker College - City , State",
+        "confidence": 0.9745197892189026,
+        "bbox": null
+      },
+      {
+        "text": "Sociology GPA: 3.0",
+        "confidence": 0.9957400560379028,
+        "bbox": null
+      },
+      {
+        "text": "April 2018",
+        "confidence": 0.9546542167663574,
+        "bbox": null
+      },
+      {
+        "text": "Rock Hill High School -",
+        "confidence": 0.9993293881416321,
+        "bbox": null
+      },
+      {
+        "text": "Northwestern High School - City , State",
+        "confidence": 0.9939281940460205,
+        "bbox": null
+      },
+      {
+        "text": "Skills",
+        "confidence": 0.9992484450340271,
+        "bbox": null
+      },
+      {
+        "text": "Tutoring, workshops",
+        "confidence": 0.9959449768066406,
+        "bbox": null
+      },
+      {
+        "text": "Additional Information",
+        "confidence": 0.9780961871147156,
+        "bbox": null
+      },
+      {
+        "text": "Grades 8th, 9th, and 1 1th Anchor Club Faculty Advisor Junior/Senior Prom Sponsor Member of First Responder Team Member of",
+        "confidence": 0.9797338843345642,
+        "bbox": null
+      },
+      {
+        "text": "Emergency Action Team Bishopville Primary School August 1989 - June 1998 603 North Dennis Avenue, Bishopville, SC 29010 First",
+        "confidence": 0.9921596646308899,
+        "bbox": null
+      },
+      {
+        "text": "Grade Teaching Assistant Adult Education/Parenting Teacher Activities: South Carolina Education Association 4-H Member/Teacher",
+        "confidence": 0.9905600547790527,
+        "bbox": null
+      },
+      {
+        "text": "Hill Detention Hall Teacher Progressive Planning Commitee Emergency Action Team Member First Responder Team Member",
+        "confidence": 0.9955978393554688,
+        "bbox": null
+      },
+      {
+        "text": "Accomplishments",
+        "confidence": 0.9997114539146423,
+        "bbox": null
+      },
+      {
+        "text": "Student Progress Conferences",
+        "confidence": 0.997828483581543,
+        "bbox": null
+      },
+      {
+        "text": "students' educationa/social development.",
+        "confidence": 0.9849261045455933,
+        "bbox": null
+      },
+      {
+        "text": "Targeted Development",
+        "confidence": 0.999961256980896,
+        "bbox": null
+      },
+      {
+        "text": "Met with parents and guardians to discuss children's progress and to determine priorities and resource needs.",
+        "confidence": 0.9899680018424988,
+        "bbox": null
+      },
+      {
+        "text": "Student Mentor",
+        "confidence": 0.9997417330741882,
+        "bbox": null
+      },
+      {
+        "text": "Volunteered as temporary student guidance counselor to help resolve student personal issues.",
+        "confidence": 0.9827629327774048,
+        "bbox": null
+      },
+      {
+        "text": "Curriculum Implementation",
+        "confidence": 0.9999238848686218,
+        "bbox": null
+      },
+      {
+        "text": "the Board of Education.",
+        "confidence": 0.9831047654151917,
+        "bbox": null
+      },
+      {
+        "text": "Certifications",
+        "confidence": 0.9992351531982422,
+        "bbox": null
+      },
+      {
+        "text": "SC Â Certified SCST",
+        "confidence": 0.9853298664093018,
+        "bbox": null
+      },
+      {
+        "text": "Read to Succeed certification",
+        "confidence": 0.9798208475112915,
+        "bbox": null
+      },
+      {
+        "text": "First aid and CPR certified",
+        "confidence": 0.9956023097038269,
+        "bbox": null
+      }
+    ]
+  }
+]

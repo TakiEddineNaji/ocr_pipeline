@@ -1,58 +1,70 @@
 # =====================================================
-# STEP 3 — LIGHT OCR CLEANING (CALLABLE)
+# STEP 3 — LIGHT OCR CLEANING (CALLABLE + CLI)
 # =====================================================
 # Purpose:
-# - Remove low-confidence noise
+# - Remove low-confidence noise (optional)
 # - Normalize spacing and accents
-# - Preserve layout order
-# - NO semantic interpretation
+# - Preserve layout order if bbox exists
+# - Keep all lines even if bbox is missing
+# - Save cleaned JSON for downstream LLM/RAG
 # =====================================================
 
 import json
-from unidecode import unidecode
 from pathlib import Path
-import os
+from unidecode import unidecode
+
 
 # -------------------------------
 # Line-level cleaning
 # -------------------------------
 def clean_line(line, min_conf=0.30):
     """
-    Clean a single OCR line:
-    - Remove low-confidence lines
-    - Normalize spaces and accents
-    - Skip empty text or missing bbox
+    Clean a single OCR line.
+
+    Rules:
+    - Drop lines below min_conf (optional)
+    - Normalize whitespace
+    - Normalize accents
+    - Keep lines even if bbox is None
     """
-    if line["confidence"] is None or line["confidence"] < min_conf:
+    confidence = line.get("confidence")
+    if confidence is not None and confidence < min_conf:
         return None
 
-    text = " ".join(line["text"].split())
+    text = line.get("text", "")
+    text = " ".join(text.split())
     if not text:
-        return None
-
-    if not line.get("bbox"):
         return None
 
     return {
         "text": unidecode(text),
-        "bbox": line["bbox"]
+        "confidence": confidence,
+        "bbox": line.get("bbox")  # can be None
     }
 
 
 # -------------------------------
 # Main cleaning function
 # -------------------------------
-def clean_ocr_json(input_path, output_path, min_conf=0.30):
+def clean_ocr_json(input_path, output_path, min_conf=0.30, sort_by_bbox=True):
     """
-    Clean OCR JSON from Step 2:
-    - input_path: path to raw OCR JSON
-    - output_path: path to save cleaned JSON
-    - min_conf: minimum confidence threshold
+    Clean OCR JSON from Step 2.
+
+    Args:
+        input_path (str | Path): raw OCR JSON
+        output_path (str | Path): cleaned JSON path
+        min_conf (float): confidence threshold
+        sort_by_bbox (bool): sort lines by top-left coordinate if bbox exists
+
+    Returns:
+        list: cleaned OCR pages
     """
     input_path = Path(input_path)
     output_path = Path(output_path)
 
-    # Read raw OCR
+    if not input_path.exists():
+        raise FileNotFoundError(f"OCR input file not found: {input_path}")
+
     with open(input_path, "r", encoding="utf-8") as f:
         pages = json.load(f)
 
@@ -66,18 +78,17 @@ def clean_ocr_json(input_path, output_path, min_conf=0.30):
             if cl:
                 cleaned_lines.append(cl)
 
-        # Sort by top-left coordinate (y, then x)
-        cleaned_lines.sort(key=lambda l: (l["bbox"][0][1], l["bbox"][0][0]))
+        # Optional: sort by bbox top-left if available
+        if sort_by_bbox:
+            cleaned_lines.sort(key=lambda l: (l["bbox"][0][1], l["bbox"][0][0]) if l["bbox"] else (0, 0))
 
         cleaned_pages.append({
             "image": page.get("image", ""),
             "lines": cleaned_lines
         })
 
-    # Ensure output folder exists
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # Save cleaned JSON
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(cleaned_pages, f, ensure_ascii=False, indent=2)
 
@@ -86,12 +97,16 @@ def clean_ocr_json(input_path, output_path, min_conf=0.30):
 
 
 # -------------------------------
-# Optional CLI entry point
+# CLI entry point
 # -------------------------------
 if __name__ == "__main__":
     import sys
+
     if len(sys.argv) < 3:
-        print("Usage: python step3_light_clean_callable.py <raw_ocr.json> <cleaned.json>")
+        print("Usage: python step3_light_clean_full.py <raw_ocr.json> <cleaned.json>")
         sys.exit(1)
 
-    clean_ocr_json(sys.argv[1], sys.argv[2])
+    clean_ocr_json(
+        input_path=sys.argv[1],
+        output_path=sys.argv[2],
+    )

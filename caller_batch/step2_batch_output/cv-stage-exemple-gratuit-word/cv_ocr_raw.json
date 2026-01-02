@@ -1,0 +1,272 @@
+[
+  {
+    "image": "processed_1.png",
+    "lines": [
+      {
+        "text": "Prénom Nom",
+        "confidence": 0.9983268976211548,
+        "bbox": null
+      },
+      {
+        "text": "RECHERCHE DE STAGE",
+        "confidence": 0.9868249893188477,
+        "bbox": null
+      },
+      {
+        "text": "0606 06 06 06 | prenom nom@gmailcom | Ville, Pays",
+        "confidence": 0.9160860180854797,
+        "bbox": null
+      },
+      {
+        "text": "Étudiante en deuxième année de Master en Géomarketing",
+        "confidence": 0.9690332412719727,
+        "bbox": null
+      },
+      {
+        "text": "je recherche un stage en tant que Chargée dr'Études en",
+        "confidence": 0.9655780792236328,
+        "bbox": null
+      },
+      {
+        "text": "Marketing Spatial. Je suis disponible à partir du 1er janvier",
+        "confidence": 0.9659436941146851,
+        "bbox": null
+      },
+      {
+        "text": "pour une durée de 6 mois.",
+        "confidence": 0.9633235931396484,
+        "bbox": null
+      },
+      {
+        "text": "COMPÉTENCES",
+        "confidence": 0.9852632284164429,
+        "bbox": null
+      },
+      {
+        "text": " Travail en équlpe",
+        "confidence": 0.9533025026321411,
+        "bbox": null
+      },
+      {
+        "text": "Excel",
+        "confidence": 0.9975860714912415,
+        "bbox": null
+      },
+      {
+        "text": "& LOGICIELS",
+        "confidence": 0.955030620098114,
+        "bbox": null
+      },
+      {
+        "text": "Leadership",
+        "confidence": 0.9945088624954224,
+        "bbox": null
+      },
+      {
+        "text": "Word",
+        "confidence": 0.9775373935699463,
+        "bbox": null
+      },
+      {
+        "text": "Autonomie",
+        "confidence": 0.9937351942062378,
+        "bbox": null
+      },
+      {
+        "text": "Photoshap",
+        "confidence": 0.8796416521072388,
+        "bbox": null
+      },
+      {
+        "text": "FORMATION",
+        "confidence": 0.9996708631515503,
+        "bbox": null
+      },
+      {
+        "text": "09/2022-",
+        "confidence": 0.9918640851974487,
+        "bbox": null
+      },
+      {
+        "text": "Master Géomarketing",
+        "confidence": 0.9838191866874695,
+        "bbox": null
+      },
+      {
+        "text": "AwjurdfPu",
+        "confidence": 0.6201704740524292,
+        "bbox": null
+      },
+      {
+        "text": "LAE Gustove Effet, Cretes",
+        "confidence": 0.827239453792572,
+        "bbox": null
+      },
+      {
+        "text": "09/2021-",
+        "confidence": 0.9609786868095398,
+        "bbox": null
+      },
+      {
+        "text": "Licence Géographie et Aménagement",
+        "confidence": 0.9960338473320007,
+        "bbox": null
+      },
+      {
+        "text": "07/2022",
+        "confidence": 0.9916245341300964,
+        "bbox": null
+      },
+      {
+        "text": "LAE Gustove Eiffel Crétest",
+        "confidence": 0.8301605582237244,
+        "bbox": null
+      },
+      {
+        "text": "2021",
+        "confidence": 0.9964671730995178,
+        "bbox": null
+      },
+      {
+        "text": "Baccalauréat Scientifique",
+        "confidence": 0.9940387010574341,
+        "bbox": null
+      },
+      {
+        "text": "Lycee Rocine, Pars",
+        "confidence": 0.8693220615386963,
+        "bbox": null
+      },
+      {
+        "text": "EXPÉRIENCE",
+        "confidence": 0.9974333643913269,
+        "bbox": null
+      },
+      {
+        "text": "01/2022 -",
+        "confidence": 0.9245175123214722,
+        "bbox": null
+      },
+      {
+        "text": "CHARGÉE D'ÉTUDES GÉOMARKETING (SRAgE)",
+        "confidence": 0.9219183921813965,
+        "bbox": null
+      },
+      {
+        "text": "03/2022",
+        "confidence": 0.9975484609603882,
+        "bbox": null
+      },
+      {
+        "text": "RENAULT | Paris",
+        "confidence": 0.9480164647102356,
+        "bbox": null
+      },
+      {
+        "text": "Tenue de bases de donntes et typologie cliercèle.",
+        "confidence": 0.9100422859191895,
+        "bbox": null
+      },
+      {
+        "text": "Optimisation de réseau et des moyers de",
+        "confidence": 0.9373090863227844,
+        "bbox": null
+      },
+      {
+        "text": "markering",
+        "confidence": 0.946704626083374,
+        "bbox": null
+      },
+      {
+        "text": "•Étude de la sectorisasion et des localisations",
+        "confidence": 0.9157609939575195,
+        "bbox": null
+      },
+      {
+        "text": "09 / 2021 -",
+        "confidence": 0.9189334511756897,
+        "bbox": null
+      },
+      {
+        "text": "SERVEUSE EN RESTAURATION (JOb étudLANt)",
+        "confidence": 0.9259697198867798,
+        "bbox": null
+      },
+      {
+        "text": "10/2021",
+        "confidence": 0.9982863068580627,
+        "bbox": null
+      },
+      {
+        "text": "HÔTEL MERCURE | Paris",
+        "confidence": 0.9262936115264893,
+        "bbox": null
+      },
+      {
+        "text": "Service des petits déjeurers en chambre pour la",
+        "confidence": 0.9275627732276917,
+        "bbox": null
+      },
+      {
+        "text": "clienchle haute gamme",
+        "confidence": 0.8822962641716003,
+        "bbox": null
+      },
+      {
+        "text": ".Respec: de l'emage de marque, des consigres",
+        "confidence": 0.9120599627494812,
+        "bbox": null
+      },
+      {
+        "text": "d'hygiene et maincien de la qualicé du service",
+        "confidence": 0.8142489790916443,
+        "bbox": null
+      },
+      {
+        "text": "LANGUES",
+        "confidence": 0.9998489022254944,
+        "bbox": null
+      },
+      {
+        "text": "Français : Langue maternelle",
+        "confidence": 0.9559873342514038,
+        "bbox": null
+      },
+      {
+        "text": "Anglais : Intermédiaire",
+        "confidence": 0.9000056982040405,
+        "bbox": null
+      },
+      {
+        "text": "Allemand : Notions",
+        "confidence": 0.9538949131965637,
+        "bbox": null
+      },
+      {
+        "text": "CENTRES",
+        "confidence": 0.9998406171798706,
+        "bbox": null
+      },
+      {
+        "text": "Natation",
+        "confidence": 0.9996843338012695,
+        "bbox": null
+      },
+      {
+        "text": "D'INTÉRET",
+        "confidence": 0.9663941860198975,
+        "bbox": null
+      },
+      {
+        "text": "Lecture et théätre",
+        "confidence": 0.90577632188797,
+        "bbox": null
+      },
+      {
+        "text": "Culture Manga",
+        "confidence": 0.9884979724884033,
+        "bbox": null
+      }
+    ]
+  }
+]

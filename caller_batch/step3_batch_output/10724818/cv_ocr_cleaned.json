@@ -1,0 +1,407 @@
+[
+  {
+    "image": "processed_1.png",
+    "lines": [
+      {
+        "text": "SALES",
+        "confidence": 0.9992760419845581,
+        "bbox": null
+      },
+      {
+        "text": "Career Overview",
+        "confidence": 0.9996898174285889,
+        "bbox": null
+      },
+      {
+        "text": "skills to meet client and company needs.",
+        "confidence": 0.9917017221450806,
+        "bbox": null
+      },
+      {
+        "text": "Skill Highlights",
+        "confidence": 0.9970986843109131,
+        "bbox": null
+      },
+      {
+        "text": "Time management",
+        "confidence": 0.955557107925415,
+        "bbox": null
+      },
+      {
+        "text": "Meticulous attention to detail",
+        "confidence": 0.9998686909675598,
+        "bbox": null
+      },
+      {
+        "text": "Travel administration",
+        "confidence": 0.9935994148254395,
+        "bbox": null
+      },
+      {
+        "text": "Scheduling",
+        "confidence": 0.9999226331710815,
+        "bbox": null
+      },
+      {
+        "text": "Microsoft Office proficiency",
+        "confidence": 0.9970760941505432,
+        "bbox": null
+      },
+      {
+        "text": "Self-starter",
+        "confidence": 0.9993937015533447,
+        "bbox": null
+      },
+      {
+        "text": "Meeting planning",
+        "confidence": 0.9996889233589172,
+        "bbox": null
+      },
+      {
+        "text": "Invoice processing",
+        "confidence": 0.9998986124992371,
+        "bbox": null
+      },
+      {
+        "text": "Core Accomplishments",
+        "confidence": 0.9989004135131836,
+        "bbox": null
+      },
+      {
+        "text": "Calendaring A",
+        "confidence": 0.9662705659866333,
+        "bbox": null
+      },
+      {
+        "text": "Planned all meetings and travel for CEO.",
+        "confidence": 0.9855144619941711,
+        "bbox": null
+      },
+      {
+        "text": "Scheduling A",
+        "confidence": 0.9620349407196045,
+        "bbox": null
+      },
+      {
+        "text": "* Facilitated onboarding of new employees by scheduling training, answering questions and processing paperwork.",
+        "confidence": 0.9828212857246399,
+        "bbox": null
+      },
+      {
+        "text": "Process Improvement A",
+        "confidence": 0.9835558533668518,
+        "bbox": null
+      },
+      {
+        "text": "* Oversaw implementation of new phone system which resulted in more cost-effective service.",
+        "confidence": 0.9913406372070312,
+        "bbox": null
+      },
+      {
+        "text": "Research A",
+        "confidence": 0.9420099258422852,
+        "bbox": null
+      },
+      {
+        "text": "Investigated any necessary information for proper billing for insurance companies, patients and DMEs such as proper billing codes.",
+        "confidence": 0.9941356778144836,
+        "bbox": null
+      },
+      {
+        "text": "Data Organization A",
+        "confidence": 0.9656481742858887,
+        "bbox": null
+      },
+      {
+        "text": "Improved office organization by compiling quarterly budget reports, financial spreadsheets, organizational charts and conpany data reports",
+        "confidence": 0.9918181896209717,
+        "bbox": null
+      },
+      {
+        "text": "using advanced Microsoft Excel functions.",
+        "confidence": 0.9822044372558594,
+        "bbox": null
+      },
+      {
+        "text": "Multitasking A",
+        "confidence": 0.9747152924537659,
+        "bbox": null
+      },
+      {
+        "text": "Demonstrated proficiencies in telephone, e-mail, fax and front-desk reception within high- volume environment.",
+        "confidence": 0.9953300952911377,
+        "bbox": null
+      },
+      {
+        "text": "Administration A",
+        "confidence": 0.9684444665908813,
+        "bbox": null
+      },
+      {
+        "text": "inter-departmental use.",
+        "confidence": 0.9994648694992065,
+        "bbox": null
+      },
+      {
+        "text": "Reporting A",
+        "confidence": 0.9569816589355469,
+        "bbox": null
+      },
+      {
+        "text": "*Maintained status reports to provide management with updated information for client projects.",
+        "confidence": 0.9837118983268738,
+        "bbox": null
+      },
+      {
+        "text": "Planning A",
+        "confidence": 0.9315136075019836,
+        "bbox": null
+      },
+      {
+        "text": "Arranged, scheduled and coordinated all logistics and travel itineraries for staff of 10 employees.",
+        "confidence": 0.9936381578445435,
+        "bbox": null
+      },
+      {
+        "text": "Ensured staff was equipped with all necessary supplies and collateral for long distance travel.",
+        "confidence": 0.9952242970466614,
+        "bbox": null
+      },
+      {
+        "text": "Formally recognized for playing an instrumental role in the implementation of cost savings measures.",
+        "confidence": 0.9904055595397949,
+        "bbox": null
+      },
+      {
+        "text": "Experience",
+        "confidence": 0.9938770532608032,
+        "bbox": null
+      },
+      {
+        "text": "Sales",
+        "confidence": 0.999820351600647,
+        "bbox": null
+      },
+      {
+        "text": "October 2014 to Current Company Name 1/4 City , State",
+        "confidence": 0.9891566038131714,
+        "bbox": null
+      },
+      {
+        "text": "Coordinated customer facing webinars, including developing relationships with vendors, tracking customer attendance and post-webinar follow-up.",
+        "confidence": 0.9868134260177612,
+        "bbox": null
+      },
+      {
+        "text": "Freelance",
+        "confidence": 0.9995509386062622,
+        "bbox": null
+      },
+      {
+        "text": "January 2014 to Current Company Name i1/4 City , State",
+        "confidence": 0.9742945432662964,
+        "bbox": null
+      },
+      {
+        "text": "Arranged appropriate travel, visas, agendas, necessary contacts and country information. Maintained and coordinated executive and senior",
+        "confidence": 0.9771454930305481,
+        "bbox": null
+      },
+      {
+        "text": "management vacation, day-to-day meeting and travel schedules. Wrote and distributed meeting minutes to appropriate individuals.Coordinated",
+        "confidence": 0.9950618743896484,
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "image": "processed_2.png",
+    "lines": [
+      {
+        "text": "desktop publishing and proposal and memo typing.",
+        "confidence": 0.9882213473320007,
+        "bbox": null
+      },
+      {
+        "text": "Executive Assistant Executive Assistant",
+        "confidence": 0.9997224807739258,
+        "bbox": null
+      },
+      {
+        "text": "February 2011 to July 2013 Conpany Name i/4 City , State",
+        "confidence": 0.972655713558197,
+        "bbox": null
+      },
+      {
+        "text": "Sole assistant for Eastern half of North America Highly versed in linguistics, strategic writing and language.",
+        "confidence": 0.9843761324882507,
+        "bbox": null
+      },
+      {
+        "text": "Composed marketing documentation in addition to territory-wide email Prepared and processed expense reports, enforced mandatory",
+        "confidence": 0.9798790812492371,
+        "bbox": null
+      },
+      {
+        "text": "budget policies for sales account managers Simultaneously managed calendars of numerous executives Booked travel, both international &",
+        "confidence": 0.9970230460166931,
+        "bbox": null
+      },
+      {
+        "text": "domestic Managed facility logistics, vendor maintenance Managed training classes ranging from 5 to 50 guests for McAfee's New York",
+        "confidence": 0.9879893660545349,
+        "bbox": null
+      },
+      {
+        "text": "City office Staffed conferences held at the Jacob Javitz center in New York City as well as Las Vegas' boutique hotel The Venetian Planned",
+        "confidence": 0.9950548410415649,
+        "bbox": null
+      },
+      {
+        "text": "and attended quarterly reviews in five regions across North America.",
+        "confidence": 0.9871135950088501,
+        "bbox": null
+      },
+      {
+        "text": "Human Resources representative for New York City; conceptualized and placed into action a uniform on- boarding manual Fully versed in",
+        "confidence": 0.9956629276275635,
+        "bbox": null
+      },
+      {
+        "text": "sales and operational data, forecasting Assisted, and more importantly was trusted, in details of personal matters.",
+        "confidence": 0.98253333568573,
+        "bbox": null
+      },
+      {
+        "text": "Designed PowerPoint presentations for monthly divisional meetings with top-level executives.",
+        "confidence": 0.9979878067970276,
+        "bbox": null
+      },
+      {
+        "text": "Scheduled Board of Directors meetings and assisted with meeting materials and agendas.",
+        "confidence": 0.9935598969459534,
+        "bbox": null
+      },
+      {
+        "text": "Maintained and coordinated executive and senior management vacation, day-to-day meeting and travel schedules.",
+        "confidence": 0.9961940050125122,
+        "bbox": null
+      },
+      {
+        "text": "Collaborated with other administrative team members, human resources and the finance department on special projects and events.",
+        "confidence": 0.9912315011024475,
+        "bbox": null
+      },
+      {
+        "text": "Provided logistical support to visiting executives in coordination with other Executive Assistants.",
+        "confidence": 0.987755537033081,
+        "bbox": null
+      },
+      {
+        "text": "Coordinated customer facing webinars, including developing relationships with vendors, tracking customer attendance and post-webinar",
+        "confidence": 0.9940482378005981,
+        "bbox": null
+      },
+      {
+        "text": "follow-up.",
+        "confidence": 0.9995867013931274,
+        "bbox": null
+      },
+      {
+        "text": "Created and maintained computer- and paper-based filing and organization systems for records, reports and documents.",
+        "confidence": 0.9924248456954956,
+        "bbox": null
+      },
+      {
+        "text": "Investigated issues and problems and drafted responses to urgent requests.",
+        "confidence": 0.9817768931388855,
+        "bbox": null
+      },
+      {
+        "text": "Served as Executive Assistant to the national sales manager, marketing manager and senior product managers.",
+        "confidence": 0.9890913367271423,
+        "bbox": null
+      },
+      {
+        "text": "Initiated and updated yearly dealer agreements and dealer applications.",
+        "confidence": 0.9933797121047974,
+        "bbox": null
+      },
+      {
+        "text": "Approved travel expenses and reimbursement requests.",
+        "confidence": 0.9991625547409058,
+        "bbox": null
+      },
+      {
+        "text": "Arranged appropriate travel, visas, agendas, necessary contacts and country information.",
+        "confidence": 0.9951217174530029,
+        "bbox": null
+      },
+      {
+        "text": "Supervisor",
+        "confidence": 0.9999639391899109,
+        "bbox": null
+      },
+      {
+        "text": "June 2006 to February 2011 Company Name i1/4 City , State",
+        "confidence": 0.9816992282867432,
+        "bbox": null
+      },
+      {
+        "text": "Oversaw staff ranging from 2-10 employees per shift Observed established trends to market purposefully, divided sales into micro-",
+        "confidence": 0.9863223433494568,
+        "bbox": null
+      },
+      {
+        "text": "segments, in order to increase RD sales Utilized revenue data along with environmental factors as primary source of research based upon",
+        "confidence": 0.9266341328620911,
+        "bbox": null
+      },
+      {
+        "text": "direct contact with consumers.",
+        "confidence": 0.999859631061554,
+        "bbox": null
+      },
+      {
+        "text": "Education",
+        "confidence": 0.9998050332069397,
+        "bbox": null
+      },
+      {
+        "text": "Bachelor's : Anthropology Hunter College i1/4 City , State",
+        "confidence": 0.9623287916183472,
+        "bbox": null
+      },
+      {
+        "text": "Emphasis in Linguistics",
+        "confidence": 0.9945477843284607,
+        "bbox": null
+      },
+      {
+        "text": "Skills",
+        "confidence": 0.9332422614097595,
+        "bbox": null
+      },
+      {
+        "text": "Microsoft Office Suite, Calendaring, Critical Thinking, Travel Arrangements",
+        "confidence": 0.9861037135124207,
+        "bbox": null
+      },
+      {
+        "text": "Additional Information",
+        "confidence": 0.981096625328064,
+        "bbox": null
+      },
+      {
+        "text": "* LINKS",
+        "confidence": 0.9611273407936096,
+        "bbox": null
+      },
+      {
+        "text": "http://www.linkedin.com/in/rachellascalla",
+        "confidence": 0.9788436889648438,
+        "bbox": null
+      }
+    ]
+  }
+]

@@ -11,3 +11,7 @@ step3_output/
 
 # PDFs / personal data
 *.pdf
+*.jpg
+*.png
+*.jpeg
+*.tiff

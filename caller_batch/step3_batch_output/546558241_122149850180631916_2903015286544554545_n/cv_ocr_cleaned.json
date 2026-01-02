@@ -1,0 +1,282 @@
+[
+  {
+    "image": "processed_1.png",
+    "lines": [
+      {
+        "text": "DONNA STROUPE",
+        "confidence": 0.9998475313186646,
+        "bbox": null
+      },
+      {
+        "text": "Sales Representative",
+        "confidence": 0.9988682866096497,
+        "bbox": null
+      },
+      {
+        "text": "hello@reallygreatsite.com",
+        "confidence": 0.9538070559501648,
+        "bbox": null
+      },
+      {
+        "text": "About Me",
+        "confidence": 0.999835729598999,
+        "bbox": null
+      },
+      {
+        "text": "*123-456-7890",
+        "confidence": 0.9429222345352173,
+        "bbox": null
+      },
+      {
+        "text": "123 Anywhere St. Any City",
+        "confidence": 0.9594358801841736,
+        "bbox": null
+      },
+      {
+        "text": "I om o Sales Representative is a professiongl who initiglizes ond",
+        "confidence": 0.9287519454956055,
+        "bbox": null
+      },
+      {
+        "text": "manoges relationships with customers. They serve as their point of",
+        "confidence": 0.9776352643966675,
+        "bbox": null
+      },
+      {
+        "text": "recllygreatsite.com",
+        "confidence": 0.9677619934082031,
+        "bbox": null
+      },
+      {
+        "text": "contact and leod from initial cutreach through the mcking of the",
+        "confidence": 0.9719414710998535,
+        "bbox": null
+      },
+      {
+        "text": "final purchase by them or someone in their household.",
+        "confidence": 0.9741988778114319,
+        "bbox": null
+      },
+      {
+        "text": "EDUCATION",
+        "confidence": 0.9976527094841003,
+        "bbox": null
+      },
+      {
+        "text": "WORK EXPERIENCE",
+        "confidence": 0.9994140267372131,
+        "bbox": null
+      },
+      {
+        "text": "BA Sales and Commerce",
+        "confidence": 0.9833970069885254,
+        "bbox": null
+      },
+      {
+        "text": "Jul 2020 - Aug 2023",
+        "confidence": 0.9036612510681152,
+        "bbox": null
+      },
+      {
+        "text": "Wardiere University",
+        "confidence": 0.9842649698257446,
+        "bbox": null
+      },
+      {
+        "text": "Arowwal Industries I 123 Anywhere St. Any City",
+        "confidence": 0.9749042391777039,
+        "bbox": null
+      },
+      {
+        "text": "2016 2020",
+        "confidence": 0.958450973033905,
+        "bbox": null
+      },
+      {
+        "text": "Consumer Goods Seller",
+        "confidence": 0.9963299632072449,
+        "bbox": null
+      },
+      {
+        "text": "Bachelor of Marketing",
+        "confidence": 0.9957731366157532,
+        "bbox": null
+      },
+      {
+        "text": "*Offer consumer goods pockoges to corperate ond clents",
+        "confidence": 0.9367340207099915,
+        "bbox": null
+      },
+      {
+        "text": "Wardiere University",
+        "confidence": 0.9641274809837341,
+        "bbox": null
+      },
+      {
+        "text": "Meet with clents every quorter to update or renew se vices",
+        "confidence": 0.9291026592254639,
+        "bbox": null
+      },
+      {
+        "text": "2020 2023",
+        "confidence": 0.9646270275115967,
+        "bbox": null
+      },
+      {
+        "text": "Troin Junior scles ogents",
+        "confidence": 0.8603599071502686,
+        "bbox": null
+      },
+      {
+        "text": "Jul 2020 - Aug 2015",
+        "confidence": 0.9671711921691895,
+        "bbox": null
+      },
+      {
+        "text": "SKILLS",
+        "confidence": 0.9904987812042236,
+        "bbox": null
+      },
+      {
+        "text": "Timmermon Industries I 123 Amywhere St. Any City",
+        "confidence": 0.964801013469696,
+        "bbox": null
+      },
+      {
+        "text": "FMCG Sales Agent",
+        "confidence": 0.9970120191574097,
+        "bbox": null
+      },
+      {
+        "text": "Soles Strategies",
+        "confidence": 0.9019116163253784,
+        "bbox": null
+      },
+      {
+        "text": "Visited corporate client offices to offe: lates: products",
+        "confidence": 0.938144326210022,
+        "bbox": null
+      },
+      {
+        "text": "Negotiotion sasils",
+        "confidence": 0.8794448971748352,
+        "bbox": null
+      },
+      {
+        "text": "Built relotionships with clients to mointaen soles gools and creote",
+        "confidence": 0.914869487285614,
+        "bbox": null
+      },
+      {
+        "text": "new opportunities",
+        "confidence": 0.9850524663925171,
+        "bbox": null
+      },
+      {
+        "text": "Problem-Sohing",
+        "confidence": 0.8855510950088501,
+        "bbox": null
+      },
+      {
+        "text": "Aug 2014 Jul 2015",
+        "confidence": 0.9556517004966736,
+        "bbox": null
+      },
+      {
+        "text": "Arowwal Industries I123 Anywhere St, Any City",
+        "confidence": 0.9625872373580933,
+        "bbox": null
+      },
+      {
+        "text": "S",
+        "confidence": 0.6075611710548401,
+        "bbox": null
+      },
+      {
+        "text": "Sales Agent",
+        "confidence": 0.9986679553985596,
+        "bbox": null
+      },
+      {
+        "text": "Teom Colioboration",
+        "confidence": 0.919921338558197,
+        "bbox": null
+      },
+      {
+        "text": "*Visitled corporate clent offices to offer totes; products",
+        "confidence": 0.9354183077812195,
+        "bbox": null
+      },
+      {
+        "text": "LANGUAGE",
+        "confidence": 0.9996535778045654,
+        "bbox": null
+      },
+      {
+        "text": "REFERENCES",
+        "confidence": 0.9994513392448425,
+        "bbox": null
+      },
+      {
+        "text": "Estelle Darcy",
+        "confidence": 0.9604188203811646,
+        "bbox": null
+      },
+      {
+        "text": "Harper Russo",
+        "confidence": 0.9660141468048096,
+        "bbox": null
+      },
+      {
+        "text": "English",
+        "confidence": 0.9345569610595703,
+        "bbox": null
+      },
+      {
+        "text": "wardiere inc. / CEO",
+        "confidence": 0.9266209006309509,
+        "bbox": null
+      },
+      {
+        "text": "wordiere inc. / CEO",
+        "confidence": 0.9493294954299927,
+        "bbox": null
+      },
+      {
+        "text": "French",
+        "confidence": 0.9997560381889343,
+        "bbox": null
+      },
+      {
+        "text": "Pge: *(7) 456-7820",
+        "confidence": 0.6267684102058411,
+        "bbox": null
+      },
+      {
+        "text": "fhane",
+        "confidence": 0.5351055264472961,
+        "bbox": null
+      },
+      {
+        "text": "-123 44-7990",
+        "confidence": 0.665446937084198,
+        "bbox": null
+      },
+      {
+        "text": "Ema: helko@nectygyectsite.com",
+        "confidence": 0.7241804599761963,
+        "bbox": null
+      },
+      {
+        "text": "Eml",
+        "confidence": 0.6134424805641174,
+        "bbox": null
+      },
+      {
+        "text": "helogirealygrectsite.comn",
+        "confidence": 0.8341154456138611,
+        "bbox": null
+      }
+    ]
+  }
+]
