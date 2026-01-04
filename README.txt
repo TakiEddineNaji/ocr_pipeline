@@ -53,9 +53,6 @@ ocr-pipeline/
 │ ├── api_server.py
 │ └── ui/
 └── callers/
-├── run_step2_subprocess.py
-└── run_step3_subprocess.py
-
 
 ---
 
@@ -162,4 +159,3 @@ This pipeline is intentionally:
 - RAG-driven
 - Production-oriented
 
-End of README.
