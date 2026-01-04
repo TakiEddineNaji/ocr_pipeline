@@ -1,3 +1,5 @@
+Automated CV Intelligence System for Skill Extraction, Matching, and Labor-Market Analysis
+
 # CV OCR Pipeline — Local, Modular, RAG-Ready
 
 ## Overview
