@@ -4,7 +4,7 @@ Automated CV Intelligence System for Skill Extraction, Matching, and Labor-Marke
 
 ## Overview
 
-This project implements a fully local, production-oriented CV processing pipeline that converts PDF CVs into searchable, structured knowledge using OCR, deterministic cleaning, embeddings, and LLM-powered retrieval (RAG).
+This project implements a fully local, production-oriented CV processing pipeline that converts CVs into searchable, structured knowledge using OCR, deterministic cleaning, embeddings, and LLM-powered retrieval (RAG).
 
 The system is offline-first, modular, and designed for automation and scaling without relying on cloud OCR or hosted LLMs.
 
@@ -13,7 +13,7 @@ The system is offline-first, modular, and designed for automation and scaling wi
 ## High-Level Architecture
 
 PDF CV  
-→ Step 1: PDF → PNG Preprocessing  
+→ Step 1: CV → PNG Preprocessing  
 → Step 2: OCR (PaddleOCR, GPU)  
 → Step 3: Light OCR Cleaning (No Semantics)  
 → Step 4: RAG Ingestion & Embeddings  
