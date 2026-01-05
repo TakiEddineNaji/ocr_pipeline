@@ -1,0 +1,54 @@
+# STEP 5 — EMBEDDINGS (CHROMA)
+
+import json
+from pathlib import Path
+import chromadb
+from sentence_transformers import SentenceTransformer
+
+EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+
+
+def main(blocks_path, chroma_dir):
+    blocks_path = Path(blocks_path)
+    chroma_dir = Path(chroma_dir)
+
+    with open(blocks_path, "r", encoding="utf-8") as f:
+        blocks = json.load(f)
+
+    model = SentenceTransformer(EMBEDDING_MODEL)
+
+    client = chromadb.Client(
+        settings=chromadb.Settings(
+            persist_directory=str(chroma_dir),
+            anonymized_telemetry=False
+        )
+    )
+
+    collection = client.get_or_create_collection(name="cv_blocks")
+
+    texts = [b["text"] for b in blocks]
+    embeddings = model.encode(texts, normalize_embeddings=True)
+
+    ids = [f"block_{i}" for i in range(len(blocks))]
+    metadatas = [
+        {
+            "doc_id": b["doc_id"],
+            "page": b["page"],
+            "block_id": b["block_id"]
+        }
+        for b in blocks
+    ]
+
+    collection.add(
+        ids=ids,
+        documents=texts,
+        embeddings=embeddings.tolist(),
+        metadatas=metadatas
+    )
+
+    print(f"[STEP 5] Stored {len(blocks)} embeddings in Chroma")
+
+
+if __name__ == "__main__":
+    import sys
+    main(sys.argv[1], sys.argv[2])

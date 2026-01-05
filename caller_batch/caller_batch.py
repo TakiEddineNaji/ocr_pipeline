@@ -55,20 +55,11 @@ for file_path in CV_INPUT_DIR.glob("*"):
     # -------------------------------
     # Step 1: PDF / Image → PNG (preprocessing)
     # -------------------------------
-    try:
-<<<<<<< HEAD
-        preprocess_pdf(
-            str(pdf_path),
-=======
-        preprocess_file(
-            str(file_path),
->>>>>>> 0f5050a (Finalize CV preprocessing pipeline (steps 1-3))
-            str(step1_out),
-            poppler_path=POPPLER_PATH
-        )
-    except Exception as e:
-        print(f"[ERROR] Step 1 failed for {cv_name}: {e}")
-        continue
+    preprocess_pdf(
+        str(pdf_path),
+        str(step1_out),
+        poppler_path=POPPLER_PATH
+    )
 
     # -------------------------------
     # Step 2: OCR
