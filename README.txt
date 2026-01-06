@@ -50,7 +50,7 @@ before adding higher-level analytics.
 High-Level Architecture (Actual Implementation)
 
 PDF CV
-→ Step 1: PDF → PNG Preprocessing
+→ Step 1: PDF/Picture CV file format → PNG Preprocessing
 → Step 2: OCR (PaddleOCR)
 → Step 3: Light OCR Cleaning (No Semantics)
 → Step 4: RAG Block Preparation (Paragraph-Level Text)
@@ -120,8 +120,8 @@ ocr-pipeline/
 
 Pipeline Stages
 
-Step 1 — PDF Preprocessing  
-Converts PDF pages into normalized PNG images while preserving page order
+Step 1 — PDF/IMG Preprocessing  
+Converts PDF/IMG pages into normalized PNG images while preserving page order
 and resolution.
 
 Step 2 — OCR (PaddleOCR)  
