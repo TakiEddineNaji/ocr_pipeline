@@ -187,9 +187,6 @@ LLM Model     : Qwen 2.5 (7B Instruct)
 ------------------------------------------------------------
 IMPORTANT NOTES
 ------------------------------------------------------------
-
-- NEVER commit .venv/
-- NEVER commit chroma.sqlite3 or index/
 - Embeddings are disk-persistent
 - Restarting kernel or PC does NOT lose data
 - Step 6 only works if Step 5 has been run successfully
