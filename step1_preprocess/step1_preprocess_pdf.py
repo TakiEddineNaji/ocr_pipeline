@@ -87,6 +87,6 @@ if __name__ == "__main__":
     output_dir = sys.argv[2] if len(sys.argv) > 2 else "pages"
 
     # WINDOWS: set Poppler path here if not in PATH
-    POPPLER_PATH = r"C:\poppler\Library\bin"  # change if needed
+    POPPLER_PATH = None # change if needed
 
     main(file_path, output_dir, poppler_path=POPPLER_PATH)

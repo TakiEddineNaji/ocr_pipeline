@@ -1,11 +1,30 @@
+
 # Python
 __pycache__/
 *.pyc
-.env
-ocrproject/
+*.pyo
+*.pyd
+*.egg-info/
 
-# Outputs
+# Virtual environments
+.venv/
+venv/
 
+# ChromaDB (DO NOT COMMIT)
+chroma.sqlite3
+*/chroma.sqlite3
+*/index/
+*/index/**
+
+# Models / caches
+.cache/
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
 
 
 # PDFs / personal data

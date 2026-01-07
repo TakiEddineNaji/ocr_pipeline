@@ -9,14 +9,15 @@ EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 
 
 def main(chroma_dir, query, top_k=3):
-    model = SentenceTransformer(EMBEDDING_MODEL_NAME)
+    model = SentenceTransformer(EMBEDDING_MODEL_NAME, device="cuda")
 
     client = chromadb.Client(
-        settings=chromadb.Settings(
-            persist_directory=chroma_dir,
-            anonymized_telemetry=False
-        )
+    settings=chromadb.Settings(
+        persist_directory=str(chroma_dir),
+        is_persistent=True,      # 🔴 MUST MATCH STEP 5
+        anonymized_telemetry=False
     )
+)
 
     collection = client.get_collection(name="cv_blocks")
 

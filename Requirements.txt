@@ -1,17 +1,35 @@
-Python 3.11.9
-pip 25.3
-pip opencv-python
-pip pdf2image
-pip paddlepaddle
-pip paddleocr
-pip unidecode
-poppler
+# -------------------------
+# Core numeric (LOCKED)
+# -------------------------
+numpy<2.0
 
-pip install langchain=="0.0.281" # Or a version recommended by the library
-pip install langsmith==0.3.45
-pip install langchain-core==1.2.5
+# -------------------------
+# OpenCV (REQUIRED by PaddleOCR)
+# -------------------------
+opencv-python==4.6.0.66
+opencv-contrib-python==4.6.0.66
 
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-pip install sentence-transformers chromadb langchain tqdm numpy llama-cpp-python
-pip install sentence-transformers faiss-cpu numpy
-pip install chromadb
+# -------------------------
+# OCR (CPU-only, STABLE)
+# -------------------------
+paddlepaddle==2.6.1
+paddleocr==2.7.0
+
+# -------------------------
+# PDF processing
+# -------------------------
+pdf2image
+Pillow
+
+# -------------------------
+# Text / utils
+# -------------------------
+unidecode
+tqdm
+
+# -------------------------
+# Embeddings / RAG
+# -------------------------
+torch
+sentence-transformers
+chromadb
