@@ -1,107 +1,92 @@
 # =====================================================
-# STEP 2 — OCR USING PADDLEOCR (CALLABLE)
+# STEP 2 — OCR USING PADDLEOCR (DOCKER + GPU)
 # =====================================================
-# Purpose:
-# - Run OCR on processed PNG images from Step 1
-# - Preserve page order
-# - Save raw OCR results in JSON
+# Input : directory of PNG images
+# Output: cv_ocr_raw.json
 # =====================================================
 
+import subprocess
+from pathlib import Path
+
+
+DOCKER_IMAGE = "paddlecloud/paddleocr:2.6-gpu-cuda11.2-cudnn8-latest"
+OCR_LANG = "fr"
+
+
+def run_ocr(input_dir: str, output_dir: str):
+    """
+    Entry point expected by caller_batch.py
+    """
+
+    input_dir = Path(input_dir).resolve()
+    output_dir = Path(output_dir).resolve()
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    print("[STEP 2] OCR via Docker (GPU ENABLED + MODEL CACHE)")
+    print(f"  Language: {OCR_LANG}")
+    print(f"  Input   : {input_dir}")
+    print(f"  Output  : {output_dir}")
+    print(f"  Cache   : {Path.home() / '.paddleocr'}")
+
+    docker_python = f"""
 import json
-import re
 from pathlib import Path
 from paddleocr import PaddleOCR
-import os
 
-# -------------------------------
-# OCR pipeline function
-# -------------------------------
-def run_ocr(input_dir, output_dir):
-    """
-    Run PaddleOCR on all PNG images in input_dir.
+ocr = PaddleOCR(lang="{OCR_LANG}", use_gpu=True)
 
-    Args:
-        input_dir (str or Path): Folder containing processed_*.png images
-        output_dir (str or Path): Folder to save OCR output JSON
+pages = []
+image_dir = Path("/input")
+images = sorted(image_dir.glob("*.png"))
 
-    Returns:
-        list: OCR results per image
-    """
-    input_path = Path(input_dir)
-    output_path = Path(output_dir)  # Use the folder exactly as given
-    output_json = output_path / "cv_ocr_raw.json"
+for idx, img_path in enumerate(images):
+    result = ocr.ocr(str(img_path), cls=True)
 
-    # Ensure output folder exists
-    output_path.mkdir(parents=True, exist_ok=True)
+    blocks = []
+    if result and result[0]:
+        for line in result[0]:
+            blocks.append({{
+                "text": line[1][0],
+                "confidence": float(line[1][1]),
+                "bbox": line[0]
+            }})
 
-    # Delete old JSON if exists
-    if output_json.exists():
-        os.remove(output_json)
+    pages.append({{
+        "page": idx + 1,
+        "blocks": blocks
+    }})
 
-    # Initialize OCR
-    ocr = PaddleOCR(lang="fr", use_textline_orientation=False)
+with open("/output/cv_ocr_raw.json", "w", encoding="utf-8") as f:
+    json.dump({{"pages": pages}}, f, ensure_ascii=False, indent=2)
+"""
 
-    # Numeric sort helper
-    def numeric_key(path):
-        m = re.search(r"(\d+)", path.name)
-        return int(m.group(1)) if m else 0
+    cmd = [
+        "docker", "run", "--rm",
+        "--gpus", "all",
+        "-e", "FLAGS_use_gpu=1",
+        "-v", f"{input_dir}:/input",
+        "-v", f"{output_dir}:/output",
+        "-v", f"{Path.home() / '.paddleocr'}:/root/.paddleocr",
+        DOCKER_IMAGE,
+        "python3", "-c", docker_python
+    ]
 
-    # Collect images
-    image_paths = sorted(input_path.glob("processed_*.png"), key=numeric_key)
-    if not image_paths:
-        raise RuntimeError(f"No processed_*.png images found in {input_dir}")
+    subprocess.run(cmd, check=True)
 
-    results = []
+    output_file = output_dir / "cv_ocr_raw.json"
+    if not output_file.exists():
+        raise RuntimeError("Step 2 failed: cv_ocr_raw.json not created")
 
-    for img_path in image_paths:
-        print(f"OCR → {img_path.name}")
-        ocr_result = ocr.ocr(str(img_path))
-        lines = []
-
-        for page in ocr_result:
-            # VL container / new format
-            if isinstance(page, dict) and "rec_texts" in page:
-                rec_texts = page.get("rec_texts", [])
-                rec_scores = page.get("rec_scores", [None] * len(rec_texts))
-                for text, conf in zip(rec_texts, rec_scores):
-                    lines.append({
-                        "text": str(text),
-                        "confidence": float(conf) if conf is not None else None,
-                        "bbox": None
-                    })
-            # Legacy / hybrid format
-            elif isinstance(page, (list, tuple)):
-                for line in page:
-                    if isinstance(line, (list, tuple)) and len(line) == 2:
-                        bbox = line[0]
-                        text, confidence = line[1]
-                        lines.append({
-                            "text": str(text),
-                            "confidence": float(confidence),
-                            "bbox": bbox
-                        })
-            else:
-                continue
-
-        results.append({
-            "image": img_path.name,
-            "lines": lines
-        })
-
-    # Save OCR output JSON
-    with open(output_json, "w", encoding="utf-8") as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
-
-    print(f"[STEP 2] OCR output saved → {output_json}")
-    return results
+    print(f"[STEP 2] OCR completed → {output_dir}")
+    return output_dir
 
 
-# -------------------------------
-# Optional CLI entry point
-# -------------------------------
+
+# Optional CLI usage
 if __name__ == "__main__":
     import sys
-    if len(sys.argv) < 3:
+
+    if len(sys.argv) != 3:
         print("Usage: python step2_ocr_paddle.py <input_dir> <output_dir>")
         sys.exit(1)
 

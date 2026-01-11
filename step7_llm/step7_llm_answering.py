@@ -3,10 +3,10 @@
 # =====================================================
 # Purpose:
 # - Receive a user question
-# - Retrieve relevant context from Chroma (Step 6)
-# - Build a grounded prompt
+# - Retrieve aggregated candidate data from Step 6
+# - Build one grounded prompt per candidate
 # - Call local Ollama LLM (Qwen 2.5)
-# - Return answer
+# - Return candidate-level answers
 # =====================================================
 
 from step6_retrieval.step6_retrieval import main as retrieve_blocks
@@ -18,6 +18,9 @@ import ollama
 MODEL_NAME = "qwen2.5:7b-instruct"
 
 
+# -----------------------------------------------------
+# PROMPT BUILDER
+# -----------------------------------------------------
 def build_prompt(context_blocks, question):
     context_text = "\n\n".join(context_blocks)
 
@@ -37,6 +40,9 @@ ANSWER:
     return prompt.strip()
 
 
+# -----------------------------------------------------
+# LLM CALL
+# -----------------------------------------------------
 def call_llm(prompt):
     response = ollama.chat(
         model=MODEL_NAME,
@@ -47,28 +53,37 @@ def call_llm(prompt):
     return response["message"]["content"]
 
 
+# -----------------------------------------------------
+# MAIN ENTRY POINT
+# -----------------------------------------------------
 def answer_question(chroma_dir, question, top_k=3):
     # -------------------------------
-    # Step 6 — Retrieval
+    # Step 6 — Retrieval (aggregated)
     # -------------------------------
     results = retrieve_blocks(chroma_dir, question, top_k)
 
-    context_blocks = results["documents"][0]
+    if not results:
+        return "Not found in the CVs"
 
-    if not context_blocks:
-        return "Not found in the CV"
-
-    # -------------------------------
-    # Build prompt
-    # -------------------------------
-    prompt = build_prompt(context_blocks, question)
+    answers = []
 
     # -------------------------------
-    # Step 7 — LLM
+    # Reason per candidate
     # -------------------------------
-    answer = call_llm(prompt)
+    for cv_id, blocks in results.items():
+        context_blocks = [b["text"] for b in blocks]
 
-    return answer
+        prompt = build_prompt(context_blocks, question)
+        answer = call_llm(prompt)
+
+        answers.append(
+            f"Candidate {cv_id}:\n{answer}"
+        )
+
+    # -------------------------------
+    # Final multi-candidate answer
+    # -------------------------------
+    return "\n\n".join(answers)
 
 
 # -----------------------------------------------------
@@ -81,10 +96,14 @@ if __name__ == "__main__":
         print("Usage: python step7_llm_answering.py <chroma_dir> <question> [top_k]")
         sys.exit(1)
 
+    chroma_dir = sys.argv[1]
+    question = sys.argv[2]
+    top_k = int(sys.argv[3]) if len(sys.argv) > 3 else 3
+
     answer = answer_question(
-        chroma_dir=sys.argv[1],
-        question=sys.argv[2],
-        top_k=int(sys.argv[3]) if len(sys.argv) > 3 else 3
+        chroma_dir=chroma_dir,
+        question=question,
+        top_k=top_k
     )
 
     print("\n[STEP 7] Answer:\n")

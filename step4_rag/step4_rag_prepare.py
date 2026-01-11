@@ -12,7 +12,7 @@ import json
 from pathlib import Path
 
 
-MAX_WORDS_PER_BLOCK = 120   # sweet spot for CVs
+MAX_WORDS_PER_BLOCK = 120   # Tunable: max words per RAG block
 
 
 def normalize_text(text: str) -> str:

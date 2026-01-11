@@ -33,3 +33,9 @@ models/
 *.png
 *.jpeg
 *.tiff
+caller_batch/step1_batch_output/
+caller_batch/step2_batch_output/
+caller_batch/step3_batch_output/
+caller_batch/step5_batch_output/
+step4_rag_batch_output/
+.chroma/

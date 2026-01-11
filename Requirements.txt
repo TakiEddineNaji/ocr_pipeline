@@ -10,26 +10,30 @@ opencv-python==4.6.0.66
 opencv-contrib-python==4.6.0.66
 
 # -------------------------
-# OCR (CPU-only, STABLE)
+# OCR (GPU, STABLE)
 # -------------------------
-paddlepaddle==2.6.1
-paddleocr==2.7.0
+paddlepaddle-gpu==2.6.1
+paddleocr==2.7.0.0
 
 # -------------------------
-# PDF processing
+# PDF / Image processing
 # -------------------------
-pdf2image
-Pillow
+pdf2image==1.17.0
+pillow==12.1.0
+PyMuPDF==1.20.2
+pypdfium2==5.3.0
 
 # -------------------------
 # Text / utils
 # -------------------------
-unidecode
-tqdm
+Unidecode==1.4.0
+tqdm==4.67.1
+regex
 
 # -------------------------
-# Embeddings / RAG
+# Embeddings / RAG (LOCKED)
 # -------------------------
-torch
-sentence-transformers
-chromadb
+torch==2.9.1
+transformers==4.57.3
+sentence-transformers==5.2.0
+chromadb==1.4.0

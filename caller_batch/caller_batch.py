@@ -1,9 +1,14 @@
 from pathlib import Path
+import sys
 
 # =====================================================
 # PROJECT ROOT
 # =====================================================
-ROOT = Path(__file__).resolve().parent
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.append(str(ROOT))
+
+RAG_OUT = ROOT / "caller_batch" / "step4_rag_batch_output"
 
 # =====================================================
 # CONFIG
@@ -16,8 +21,6 @@ BASE_STEP3_OUT = ROOT / "caller_batch" / "step3_batch_output"
 BASE_STEP4_OUT = ROOT / "caller_batch" / "step4_batch_output"
 BASE_STEP5_OUT = ROOT / "caller_batch" / "step5_batch_output"
 
-QUESTION = "What experience does the candidate have in data science?"
-TOP_K = 3
 
 # =====================================================
 # IMPORTS (package-based)
@@ -27,7 +30,6 @@ from step2_ocr.step2_ocr_paddle import run_ocr
 from step3_lightclean.step3_light_clean import clean_ocr_json
 from step4_rag.step4_rag_prepare import main as prepare_rag_blocks
 from step5_embeddings.step5_embeddings import main as build_embeddings
-from step7_llm.step7_llm_answering import answer_question
 
 # =====================================================
 # BATCH PIPELINE
@@ -46,9 +48,10 @@ for file_path in CV_INPUT_DIR.iterdir():
     step2_out = BASE_STEP2_OUT / cv_name
     step3_out = BASE_STEP3_OUT / cv_name
     step4_out = BASE_STEP4_OUT / cv_name
-    step5_out = BASE_STEP5_OUT / cv_name
+    step5_out = BASE_STEP5_OUT
 
     step5_out.mkdir(parents=True, exist_ok=True)
+
 
     # -------------------------------
     # Step 1 — Preprocess
@@ -76,8 +79,15 @@ for file_path in CV_INPUT_DIR.iterdir():
     # -------------------------------
     # Step 3 — Light clean
     # -------------------------------
-    clean_json = step3_out / "cv_ocr_cleaned.json"
+
     step3_out.mkdir(parents=True, exist_ok=True)
+
+    raw_json = step2_out / "cv_ocr_raw.json"
+    clean_json = step3_out / "cv_ocr_clean.json"
+
+    if not raw_json.exists():
+        print("[SKIP] No OCR output")
+        continue
 
     try:
         clean_ocr_json(raw_json, clean_json)
@@ -85,17 +95,26 @@ for file_path in CV_INPUT_DIR.iterdir():
         print(f"[ERROR] Step 3 failed: {e}")
         continue
 
+
+
     # -------------------------------
-    # Step 4 — RAG blocks
+    # Step 4 — Prepare RAG blocks
     # -------------------------------
-    rag_blocks = step4_out / "cv_rag_blocks.json"
     step4_out.mkdir(parents=True, exist_ok=True)
 
-    prepare_rag_blocks(
-        input_path=clean_json,
-        output_path=rag_blocks,
-        doc_id=cv_name
-    )
+    rag_blocks = step4_out / "rag_blocks.json"
+
+
+    try:
+        prepare_rag_blocks(
+            input_path=clean_json,
+            output_path=rag_blocks,
+            doc_id=cv_name
+        )
+    except Exception as e:
+        print(f"[ERROR] Step 4 failed: {e}")
+        continue
+
 
     # -------------------------------
     # Step 5 — Embeddings (GPU)
@@ -105,16 +124,3 @@ for file_path in CV_INPUT_DIR.iterdir():
         chroma_dir=step5_out
     )
 
-    # -------------------------------
-    # Step 7 — LLM Answering
-    # (Step 6 is used internally)
-    # -------------------------------
-    answer = answer_question(
-        chroma_dir=step5_out,
-        question=QUESTION,
-        top_k=TOP_K
-    )
-
-    print("\n--- ANSWER ---")
-    print(answer)
-    print(f"[DONE] {cv_name}")
